@@ -18,7 +18,7 @@ This project is a React-based implementation of a Figma design for a **Personal 
 ---
 
 ## Demo
-
+![Figma Next](https://i.ibb.co/k5fSx6G/figmanext.png)
 🚀 **Live Link:** [View the project here](#)  
 🎨 **Figma Design:** [Figma Link](https://www.figma.com/design/9LCrRmUf4yYym6H3Jak3WH/Personal-Portfolio-Landing-Page-For-Free-(Community)?node-id=260-48&node-type=canvas&t=sHhQf5CGKziDH4ko-0)
 
