@@ -1,7 +1,7 @@
 import '../styles/globals.css'
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+
+import 'aos/dist/aos.css'; // Import the CSS styles
+
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />;

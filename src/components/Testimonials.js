@@ -23,7 +23,7 @@ const Testimonials = ({ className = "" }) => {
 
   return (
     <section
-      className={`self-stretch items-center flex flex-col justify-center pt-12 pb-[552px] box-border gap-[139px] max-w-full text-center text-46xl text-gray-50 font-nav-bar-text-21 mq925:gap-[35px] mq925:pl113px] mq925:pr[113px] mq925:pb-[233px] mq925:box-border mq450:pb-[151px] mq450:box-border mq1350:gap-[69px] mq1350:pl[226px] mq1350:pr[226px] mq1350:pb-[359px] mq1350:box-border ${className}`}
+      className={`self-stretch items-center flex flex-col justify-center  pt-12 pb-[552px] box-border gap-[139px] max-w-full text-center text-46xl text-gray-50 font-nav-bar-text-21 mq925:gap-[35px] mq925:pl113px] mq925:pr[113px] mq925:pb-[233px] mq925:box-border mq450:pb-[151px] mq450:box-border mq1350:gap-[69px] mq1350:pl[226px] mq1350:pr[226px] mq1350:pb-[359px] mq1350:box-border ${className}`}
     >
       <div
         className="flex flex-co items-center justify-center py-0 box-border gap-[87px] max-w-[334%] mq925:gap-[22px] mq925:box-border mq1350:gap-[43px] mq1350:box-border"
@@ -45,11 +45,11 @@ const Testimonials = ({ className = "" }) => {
           </div>
 
           {/* Slider */}
-          <div className="self-stretch flex flex-row  items-start justify-start py-0 px-[392px] box-border gap-[62px] max-w-full text-justify text-13xl text-darkorange-100 mq925:gap-[15px] mq925:pl-[98px] mq925:pr-[98px] mq925:box-border mq1350:gap-[31px] mq1350:pl-[196px] mq1350:pr-[196px] mq1350:box-border mq1825:flex-wrap mq1825:justify-center">
+          <div className="self-stretch flex flex-row   items-start justify-start py-0 px-[392px] box-border gap-[62px] max-w-full text-justify text-13xl text-darkorange-100 mq925:gap-[15px] mq925:pl-[98px] mq925:pr-[98px] mq925:box-border mq1350:gap-[31px] mq1350:pl-[196px] mq1350:pr-[196px] mq1350:box-border mq1825:flex-wrap mq1825:justify-center">
             {slides.map((slide, index) => (
               <div
                 key={index}
-                className={`w-[1087px] mq450:w-[400px] rounded-sm bg-whitesmoke-100 flex flex-row items-start justify-start pt-[55px] px-12 pb-[53px] box-border shrink-0 [row-gap:20px] max-w-full mq1350:flex-wrap mq1350:pl-6 mq1350:pr-6 mq1350:box-border ${
+                className={`w-[1087px] mq450:w-[400px] lg:w-[700px]  rounded-sm bg-whitesmoke-100 flex flex-row items-start justify-start pt-[55px] px-12 pb-[53px] box-border shrink-0 [row-gap:20px] max-w-full mq1350:flex-wrap mq1350:pl-6 mq1350:pr-6 mq1350:box-border ${
                   index === activeSlide ? "opacity-100" : "opacity-50 pointer-events-none"
                 }`}
               >

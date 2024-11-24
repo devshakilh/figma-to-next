@@ -19,7 +19,7 @@ const Footer = ({ className = "" }) => {
     >
 
 <div
-        className="w-[932px] flex flex-col mq450:mt-16 -mt-[500px] mq450:mb-[130px] mb-[200px] items-start justify-start gap-12 max-w-full cursor-pointer mq925:gap-6"
+        className="w-[932px] flex flex-col mq450:mt-16 lg:mt-[5px] -mt-[500px] mq450:mb-[130px] mb-[200px] items-start justify-start gap-12 max-w-full cursor-pointer mq925:gap-6"
         onClick={onFrameContainerClick}
       >
         <div
@@ -28,7 +28,7 @@ const Footer = ({ className = "" }) => {
         >
           <div className="flex flex-row items-start justify-start py-0 px-[103px] mq925:pl-[25px] mq925:pr-[25px] mq925:box-border mq1350:pl-[51px] mq1350:pr-[51px] mq1350:box-border">
             <h1
-              className="m-0 relative text-inherit tracking-[0.03em] mq450:text-5xl mq450:mx-auto  font-semibold font-[inherit] mq925:text-33xl "
+              className="m-0 relative text-inherit tracking-[0.03em] lg:text-center lg:ml-12 mq450:text-5xl mq450:mx-auto  font-semibold font-[inherit] mq925:text-33xl "
               data-scroll-to="letsDesignTogether"
             >
               Lets Design Together
@@ -70,7 +70,7 @@ const Footer = ({ className = "" }) => {
                   alt=""
                   src="/logo-nav.png"
                 />
-                <div className="flex flex-col items-start justify-start pt-[15.4px] px-0 pb-0">
+                <div className="flex flex-col items-start justify-start lg:mt-4 pt-[15.4px] px-0 pb-0">
                   <h1 className="m-0 h-[35.9px] relative text-white inline-block shrink-0 z-[1] font-[inherit] mq925:text-19xl mq450:text-10xl">
                     <b>M</b>
                     <span className='text-[44p] font-mono font-semibold text-gray-500'>{`umair `}</span>
@@ -137,7 +137,7 @@ const Footer = ({ className = "" }) => {
           </div>
         </div>
       </div>
-      <footer className="bg-gray-800 flex flex-row items-start justify-start py-[26px] mq450:mt-6 mq450:px-3 px-[685px] box-border shrink-0 max-w-full z-[1] text-left text-2xl text-gray-50 font-nav-bar-text-21 mq925:pl-[183px] mq925pr-[183px] mq925:box-border mq1350:pl-[367px] mq1350:pr-[367px] mq1350:box-border">
+      <footer className="bg-gray-800 flex flex-row items-start justify-start lg:px-6 lg:mt-12 py-[26px] mq450:mt-6 mq450:px-3 px-[565px] box-border shrink-0 max-w-full z-[1] text-left text-2xl text-gray-50 font-nav-bar-text-21 mq925:pl-[183px] mq925pr-[183px] mq925:box-border mq1350:pl-[367px] mq1350:pr-[367px] mq1350:box-border">
         <div className="h-84px] w-[1921px] relative bg-gray-800 hidden max-w-full" />
         <div className="relative   tracking-[0.03em] z-[2] mq450:text-mid">
           <span>{`© 2023  `}</span>
