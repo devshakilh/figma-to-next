@@ -3,6 +3,7 @@
 
 import { useState } from "react";
 import PropTypes from "prop-types";
+import Image from "next/image";
 
 
 const projectsData = [
@@ -34,7 +35,7 @@ const Projects = ({ className = "" }) => {
                 <div className="w-[932px] flex flex-col items-start justify-start gap-[15px] max-w-full">
                   <div className="flex flex-row items-start justify-start py-0 pl-[261px] pr-[260px] mq925:pl-[130px] mq925:pr-[130px] mq925:box-border mq450:pl-[65px] mq450:pr-[5px] mq450:box-border">
                     <h1
-                      className="m-0 relative text-inherit text-[53px] tracking-[0.03em] font-semibold font-[inherit] mq925:text-33xl mq450:text-20xl"
+                      className="m-0 relative text-inherit lg:text-center lg:ml-[62px] mq925:-ml-5 text-[63px] tracking-[0.03em] font-semibold font-[inherit] mq925:text-33xl mq450:text-20xl"
                       data-scroll-to="servicesText"
                     >
                       My Projects
@@ -58,7 +59,7 @@ const Projects = ({ className = "" }) => {
               activeCategory === category
                 ? "bg-darkorange-100 text-gray-50"
                 : "bg-whitesmoke-100 text-black"
-            } hover:bg-orangered hover:border-gray-500`}
+            } hover:bg-orangered hover:border-gray-500 hover:text-white`}
             onClick={() => setActiveCategory(category)}
           >
             {category}
@@ -82,14 +83,16 @@ const Projects = ({ className = "" }) => {
                     width={274}
                     height={489}
                     alt=""
+                     data-aos="fade-down"
                     src={project.images[0]}
                   />
-                  <img
+                  <Image
                     className="absolute top-[84px] left-[0px] w-[274px] h-[405px] object-contain z-[2]"
                     width={274}
                     height={405}
                     alt=""
                     src={project.images[1]}
+                     data-aos="fade-down"
                   />
                 </div>
               </div>

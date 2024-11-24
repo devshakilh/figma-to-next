@@ -10,10 +10,10 @@ function Services() {
                 <div className="w-[932px] flex flex-col items-start justify-start gap-[15px] max-w-full">
                   <div className="flex flex-row items-start justify-start py-0 px-[319px] mq925:pl-[79px] mq925:pr-[79px] mq925:box-border mq1350:pl-[159px] mq1350:pr-[159px] mq1350:box-border">
                     <h1
-                      className="m-0 relative text-inherit tracking-[0.03em] font-semibold font-[inherit] mq925:text-33xl mq450:text-20xl"
+                      className="m-0 relative text-inherit lg:ml-[62px] tracking-[0.03em] font-semibold font-[inherit] mq925:text-33xl mq450:text-20xl"
                       data-scroll-to="servicesText"
                     >
-                      Services
+                      
                     </h1>
                   </div>
                   <div className="h-[101px] relative text-2xl tracking-[0.03em] inline-block shrink-0 mq450:text-mid">

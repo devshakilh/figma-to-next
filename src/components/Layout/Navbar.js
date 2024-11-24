@@ -149,7 +149,7 @@ function Navbar() {
           </header> 
 
             <header className="flex flex-col hidden  mq450:flex mq925:flex items-start justify-between  max-w-full bg-bg-gray">
-                <div className="flex flex-row gap-[176px] -mt-6 mb-16 items-center justify-between w-full md:w-auto">
+                <div className="flex flex-row gap-[176px] -mt-6 mb-16 items-center mq450:gap-[180px] mq925:gap-[140px] lg:gap-[570px] justify-between w-full md:w-auto">
                     <div className="flex items-center gap-5">
                         <Image
                             className="h-[50px] w-[50px] relative"
